@@ -3,5 +3,6 @@ locals {
     terraform = "true"
   }
 
-  host_project = "gde-ihommani"
+  host_project        = "gde-ihommani"
+  github_organization = "ihommani"
 }
