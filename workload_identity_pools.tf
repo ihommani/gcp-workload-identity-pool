@@ -33,7 +33,8 @@ resource "google_iam_workload_identity_pool" "github_ihommani" {
   disabled                  = false
 }
 
-#TODO: create the github repo along the way.
+#TODO1: create the github repo along the way.
+#TODO2: distinguish roles for terraform sac and gha sac
 locals {
   terraform_sa_roles_by_repository_name = {
     "workflow-real-example" : [
